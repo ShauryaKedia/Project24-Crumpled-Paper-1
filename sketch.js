@@ -53,5 +53,9 @@ function draw() {
  
 }
 
+function keyPressed(){
+  Matter.Body.applyForce(paperObject.body,paperObject.body.position)	
+}
+
 
 
